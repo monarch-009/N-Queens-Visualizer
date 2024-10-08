@@ -4,6 +4,6 @@
 
 - This algorithm is designed using recursion.
 
-![N-Queen-visualisation](visualisation.gif)
+![N-Queen-visualisation](visualisation)
 
-**<p align='center'>You can find the website live <a href="https://nqueen.netlify.app/">here</a></p>**
+**<p align='center'>You can find the website live <a href="https://monarch-009.github.io/N-Queens-Visualizer/">here</a></p>**
