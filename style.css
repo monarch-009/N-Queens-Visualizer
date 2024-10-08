@@ -6,14 +6,19 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background-image: radial-gradient(black 1px, transparent 0);
+  background-size: 40px 40px;
+  background-color: rgb(243, 237, 229);
+
 }
 
 .header {
   position: relative;
   top: -20px;
   width: 100%;
-  background-color: #011627;
+  background: linear-gradient(to right, black, white);
   color: #fdfffc;
+  text-align: center;
 }
 
 .header h2 {
@@ -40,16 +45,17 @@ div.n-queen {
   font-size: 14px;
   padding: 4px;
   border: none;
-  border-bottom: 2px solid #2ec4b6;
+  border-bottom: 2px solid black;
   outline: none;
   background: transparent;
+  color:black; 
 }
 
 .inputbox label {
   position: absolute;
   top: 4px;
   left: 0px;
-  color: #2ec4b6;
+  color: black;
   font-size: 14px;
   pointer-events: none;
   transition: 0.3s;
@@ -89,7 +95,7 @@ div.n-queen {
   top: -10px;
   font-size: 14px;
   font-weight: 500;
-  color: #fa7921;
+  color:black;
 }
 
 .slider::before {
@@ -99,7 +105,7 @@ div.n-queen {
   right: 0px;
   font-size: 14px;
   font-weight: 500;
-  color: #fa7921;
+  color: black;
 }
 
 /* Google chrome */
@@ -110,7 +116,7 @@ div.n-queen {
   position: relative;
   top: -2px;
   cursor: pointer;
-  background-color: #fa7921;
+  background-color: black;
   border-radius: 50%;
   z-index: 2;
 }
@@ -120,14 +126,14 @@ div.n-queen {
   height: 15px;
   width: 15px;
   z-index: 1;
-  color: #ffba08;
+  color: black;
 }
 
 /* Mozilla firefox */
 .slider::-moz-range-thumb {
   width: 20px;
   height: 20px;
-  background-color: #fa7921;
+  background-color: black;
   cursor: pointer;
   position: relative;
   top: -2px;
@@ -136,13 +142,13 @@ div.n-queen {
 }
 
 .slider::-webkit-slider-thumb:hover {
-  box-shadow: 0 0 0 2px white, 0 0 0 4px #fa7921;
+  box-shadow: 0 0 0 2px white, 0 0 0 4px black;
 }
 
 #progress-bar {
   width: 60%;
   height: 7px;
-  background: #ffd200;
+  background: black;
   border-radius: 7px;
   position: absolute;
   top: 7px;
@@ -157,7 +163,7 @@ div.n-queen {
   color: #fdfffc;
   width: 80px;
   height: 35px;
-  background-color: #f72585;
+  background-color: #2a2438;
   border-radius: 10px;
   font-size: 16px;
   font-weight: 600;
@@ -177,7 +183,7 @@ div.n-queen {
   text-align: center;
   font-size: 18px;
   font-weight: 500;
-  color: #247ba0;
+  color: grey;
 }
 
 #n-queen-board {
@@ -221,7 +227,7 @@ h4 {
   top: -5px;
   padding: 8px;
   width: 95%;
-  background-color: #0582ca;
+  background-color: #2a2438;
   align-self: center;
   color: #fdfffc;
   text-align: center;
